@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "skysApp",
+    "slug": "skysApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./imagesm/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./images/icon.png",
+      "bundleIdentifier": "ca.lethbridgecollege.skysApp",
+      "buildNumber": "0.1.1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "ca.lethbridgecollege.skysApp",
+      "versionCode": 420690
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a1c43da-0ffb-4d0b-a31c-f8e5991dc640"
+      }
+    }
+  }
+}
